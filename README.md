@@ -1,9 +1,9 @@
 # yolov8-instance-segmentation
 
-[![License](https://img.shields.io/badge/license-MIT-informational)](LICENSE)
-![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-black)
 ![Language](https://img.shields.io/badge/language-Python-blue)
-![Release](https://img.shields.io/badge/release-v0.1.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Release](https://img.shields.io/github/v/release/AlbertoMarquillas/gesture-mouse-control)
+![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)
 
 ## Overview
 This project demonstrates **instance segmentation using YOLOv8** on custom datasets. The repository contains training and inference scripts, dataset configuration, and documentation tailored for reproducibility and portfolio presentation. It is designed to run smoothly on **Windows (PowerShell examples provided)** but can be adapted for Linux/macOS.  
