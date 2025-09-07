@@ -1,0 +1,26 @@
+@"
+# Core CV/ML
+numpy>=1.26,<2.0
+opencv-python
+matplotlib
+pandas
+pillow
+scipy
+tqdm
+PyYAML
+typing_extensions
+
+# Torch: do NOT pin here; users install the right wheel for their CUDA/CPU
+# torch
+# torchvision
+
+# Ultralytics: a newer 8.x (adjust if your code needs exact APIs)
+ultralytics>=8.2,<9.0
+
+# Utilities
+psutil
+networkx
+"@ | Set-Content -Path "requirements.txt" -Encoding UTF8
+
+git add requirements.txt
+git commit -m "build(deps): modernize base requirements and defer torch/torchvision to user CUDA install"

@@ -1,0 +1,6 @@
+path: D:\Code\Repositorios\Computer_Vision_Projects\20_Image_Segmentation_Yolov8_Custom\data
+train: images/train 
+val: images/val  
+
+nc: 1
+names: ['duck']
