@@ -41,7 +41,7 @@ yolov8-instance-segmentation/
 
 ### 1) Clone the repository
 ```powershell
-git clone https://github.com/YOUR_USER/yolov8-instance-segmentation.git
+git clone https://github.com/AlbertoMarquillas/yolov8-instance-segmentation.git
 cd yolov8-instance-segmentation
 ```
 
