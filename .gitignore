@@ -1,0 +1,88 @@
+﻿# ---------------------------
+# OS / Editors / IDE
+# ---------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.code-workspace
+
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+.wheels/
+pip-wheel-metadata/
+*.spec
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+env/
+.python-version
+*.ipynb_checkpoints
+
+# ---------------------------
+# Jupyter
+# ---------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---------------------------
+# Logs / Temp / Caches
+# ---------------------------
+*.log
+logs/
+.cache/
+tmp/
+*.tmp
+*.~lock
+
+# ---------------------------
+# YOLOv8 / Ultralytics
+# ---------------------------
+# Default training runs folder
+runs/
+# Dataset caches created by YOLO/Ultralytics
+*.cache
+*.cache.npy
+labels.cache
+# Exported weights (we’ll keep them outside git anyway)
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.mlmodel
+*.xml
+*.bin
+
+# ---------------------------
+# Data / Models (keep docs, ignore contents)
+# ---------------------------
+data/**
+!data/.gitkeep
+!data/README.md
+
+models/**
+!models/.gitkeep
+!models/README.md
+
+# ---------------------------
+# Notebooks build artifacts
+# ---------------------------
+*/.ipynb_checkpoints/*
